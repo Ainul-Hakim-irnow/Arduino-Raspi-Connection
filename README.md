@@ -42,10 +42,9 @@ You must start the server on the Raspberry Pi before running the Arduino client.
 
 <p><code>sudo python3 raspi.py</code></p>
 
-
-The terminal will display Server starting... and then Waiting for a connection....
-2. Run the Client on the Arduino
-Open the arduino.ino sketch in the Arduino IDE.
-Upload the sketch to your Arduino board.
-Open the Serial Monitor (set the baud rate to 9600).
+* The terminal will display Server starting... and then Waiting for a connection....
+### Run the Client on the Arduino
+* Open the arduino.ino sketch in the Arduino IDE.
+* Upload the sketch to your Arduino board.
+* Open the Serial Monitor (set the baud rate to 9600).
 The Arduino will attempt to connect to the Raspberry Pi server. Once connected, you will see the messages exchanged in both the Arduino Serial Monitor and the Raspberry Pi terminal.
