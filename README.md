@@ -40,7 +40,7 @@ You must start the server on the Raspberry Pi before running the Arduino client.
 * Navigate to the directory containing the raspi.py file.
 * Run the script with sudo to allow it to configure the network interface:
 
-<code>sudo python3 raspi.py</code>
+<p><code>sudo python3 raspi.py</code></p>
 
 
 The terminal will display Server starting... and then Waiting for a connection....
