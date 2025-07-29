@@ -3,7 +3,7 @@ import os
 import time
 
 PI_IP = '0.0.1.1'
-INTERFACE = 'eno1'
+INTERFACE = 'eno1' # raspi: 'eth0' (use 'ip a' to check)
 PORT = 8888
 
 print(f"Setting IP address for {INTERFACE} to {PI_IP}...")
